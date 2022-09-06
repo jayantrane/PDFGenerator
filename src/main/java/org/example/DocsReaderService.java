@@ -13,26 +13,6 @@ import java.util.Map;
 
 public class DocsReaderService {
 
-    public DocsReaderService() {
-    }
-
-    public void readFile() {
-        File file = new File("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitest.docx");
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-            String line;
-
-            while ((line = bufferedReader.readLine()) != null) {
-                System.out.println(line);
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-    }
-
     public Map<String, String> readDocFile() {
         List<XWPFParagraph> paragraphs;
         Map<String, String> userInfo = new HashMap<>();
