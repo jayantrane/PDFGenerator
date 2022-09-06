@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/META-INF/maven/com.github.virtuald/curvesapi/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/META-INF/maven/com.github.virtuald/curvesapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/BSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/BezierCurve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/BinaryCurveApproximationAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/CardinalSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/CatmullRomSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ControlPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ControlStringParseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/CubicBSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/Curve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/GroupIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/LagrangeCurve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/MultiPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/NURBSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/NaturalCubicSpline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ParametricCurve.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/Polyline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ShapeMultiPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ShapeMultiPathIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ValueVector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/curve/ValueVectorListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/geom/Geom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/geom/Point2d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/geom/Point3d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/geom/PointFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/AddNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/DivNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/ExpressionParseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/ExpressionTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/FuncMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/FuncNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/MultNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/OpNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/PascalsTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/PowNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/SubNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/TermNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/ValNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/VarMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/VarNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AbsFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AcosFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AcoshFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AsinFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AsinhFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AtanFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AtanhFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/AvgFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/CeilFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/CombinFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/CosFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/CoshFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/EFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/ExpFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/FactFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/FloorFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/Function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/LgFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/LnFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/LogFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/MaxFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/MinFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/ModFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/PiFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/PowFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/RandFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/RoundFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/SignFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/SinFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/SinhFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/SqrtFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/SumFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/TanFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/math/func/TanhFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/org/apache/harmony/awt/gl/Crossing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/struc/Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/struc/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/curvesapi-1.07.jar/com/graphbuilder/struc/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DocsReaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ashwinitest.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestpdf.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PDFGenerator" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PDFGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PDFGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EOa6ed67RNnGyp3YSpvuCshW09" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "last_opened_file_path": "/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/lib",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.50574714"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PDF">
+    <configuration name="PDF" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PDFGenerator.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFGenerator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.PDF" />
+      <item itemvalue="Gradle.PDFGenerator [build]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PDFGenerator [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="" />
+      <created>1662468919873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662468919873</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
