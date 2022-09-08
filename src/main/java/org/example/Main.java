@@ -16,6 +16,7 @@ public class Main {
 
         pdfGenerationService = new PDFGenerationService();
         pdfGenerationService.generatePDF();
+        pdfGenerationService.updatePDF("Ashwini", "test@gmail.com");
 
 
     }

@@ -4,56 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Removed unwanted code">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fontbox-2.0.26-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.poi.xwpf.converter.core-2.0.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.poi.xwpf.converter.core-2.0.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.poi.xwpf.converter.pdf-2.0.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.poi.xwpf.converter.pdf-2.0.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.xdocreport.itext.extension-2.0.3-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/fr.opensagres.xdocreport.itext.extension-2.0.4-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/itext-2.1.7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/log4j-core-2.17.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/pdfbox-2.0.26-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Sources/poi-ooxml-full-5.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fontbox-2.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.poi.xwpf.converter.core-2.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.poi.xwpf.converter.core-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.poi.xwpf.converter.pdf-2.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.poi.xwpf.converter.pdf-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.xdocreport.itext.extension-2.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/fr.opensagres.xdocreport.itext.extension-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/itext-2.1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.17.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pdfbox-2.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-ooxml-full-5.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestgenpdf.pdf" afterDir="false" />
+    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Added to convert docs to pdf directly">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/RandomTest.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/SparseBitSet-1.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/SparseBitSet-1.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/apiguardian-api-1.1.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/apiguardian-api-1.1.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-codec-1.15-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-codec-1.15-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-collections4-4.4-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-collections4-4.4-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-compress-1.21-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-compress-1.21-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-io-2.11.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-io-2.11.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-logging-1.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-logging-1.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/commons-math3-3.6.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/commons-math3-3.6.1-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/curvesapi-1.07-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/curvesapi-1.07-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/fontbox-2.0.24-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/fontbox-2.0.24-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/junit-jupiter-api-5.8.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/junit-jupiter-api-5.8.1-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/junit-jupiter-engine-5.8.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/junit-jupiter-engine-5.8.1-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/junit-platform-commons-1.8.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/junit-platform-commons-1.8.1-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/junit-platform-engine-1.8.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/junit-platform-engine-1.8.1-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/log4j-api-2.17.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/log4j-api-2.17.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/opentest4j-1.2.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/opentest4j-1.2.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/pdfbox-2.0.24-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/pdfbox-2.0.24-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/poi-5.2.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/poi-5.2.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/poi-ooxml-5.2.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/poi-ooxml-5.2.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/poi-ooxml-lite-5.2.2-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/poi-ooxml-lite-5.2.2-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sources/xmlbeans-5.0.3-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Sources/xmlbeans-5.0.3-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DocsReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DocsReaderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ashwinitestgenpdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestgenpdf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ashwinitestpdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestpdf.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +78,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "last_opened_file_path": "/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/lib",
+    "last_opened_file_path": "/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.50574714"
@@ -128,14 +86,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/sources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PDFGenerator [build]">
+  <component name="RunManager" selected="Application.PDF">
     <configuration name="PDF" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="azul-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -215,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662474007922</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added to convert docs to pdf directly">
+      <created>1662651339295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662651339296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Removed unwanted code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unwanted code" />
+    <MESSAGE value="Added to convert docs to pdf directly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added to convert docs to pdf directly" />
   </component>
 </project>

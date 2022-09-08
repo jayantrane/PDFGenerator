@@ -1,6 +1,6 @@
 package org.example;
 
-import org.apache.poi.xwpf.usermodel.XWPFDocument;
+/*import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 
 import java.io.*;
@@ -9,11 +9,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.Map;*/
 
 public class DocsReaderService {
 
-    public Map<String, String> readDocFile() {
+/*    public Map<String, String> readDocFile() {
         List<XWPFParagraph> paragraphs;
         Map<String, String> userInfo = new HashMap<>();
         try {
@@ -34,5 +34,5 @@ public class DocsReaderService {
         userInfo.put("name", name.getText());
         userInfo.put("email", email.getText());
         return userInfo;
-    }
+    }*/
 }
