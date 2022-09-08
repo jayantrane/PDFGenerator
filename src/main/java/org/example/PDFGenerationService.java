@@ -66,11 +66,10 @@ public class PDFGenerationService {
             File file = new File("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestgenpdf.pdf");
             PDDocument document = PDDocument.load(file);
             PDPage page = document.getPage(0);
-
             PDPageContentStream contentStream = new PDPageContentStream(document, page, PDPageContentStream.AppendMode.APPEND, false);
             contentStream.beginText();
             contentStream.setFont(PDType1Font.TIMES_ROMAN, 12);
-            contentStream.newLineAtOffset(0, 0);
+            contentStream.newLineAtOffset(50, 200);
 
             String text = "Name: " + name + " Email Address: " + email;
             contentStream.showText(text);
@@ -78,8 +77,7 @@ public class PDFGenerationService {
             System.out.println("Content added");
 
             contentStream.close();
-            document.addPage(page);
-            document.save("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestpdf.pdf");
+            document.save(new File("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestpdf2.pdf"));
             System.out.println("PDF created");
             document.close();
         } catch (IOException e) {

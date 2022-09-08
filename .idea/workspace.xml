@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Added to convert docs to pdf directly">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/RandomTest.docx" afterDir="false" />
+    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Updated some code to append the name and email">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DocsReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DocsReaderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ashwinitestgenpdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestgenpdf.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ashwinitestpdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ashwinitestpdf.pdf" afterDir="false" />
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662651339296</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated some code to append the name and email">
+      <created>1662653121356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662653121357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +202,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Removed unwanted code" />
     <MESSAGE value="Added to convert docs to pdf directly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added to convert docs to pdf directly" />
+    <MESSAGE value="Updated some code to append the name and email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated some code to append the name and email" />
   </component>
 </project>
