@@ -8,11 +8,14 @@ public class Main {
     static PDFGenerationService pdfGenerationService;
     public static void main(String[] args) {
 
-        docsReaderService = new DocsReaderService();
-        Map<String, String> userInfo = docsReaderService.readDocFile();
+//        docsReaderService = new DocsReaderService();
+//        Map<String, String> userInfo = docsReaderService.readDocFile();
+//
+//        pdfGenerationService = new PDFGenerationService();
+//        pdfGenerationService.createPDF(userInfo);
 
         pdfGenerationService = new PDFGenerationService();
-        pdfGenerationService.createPDF(userInfo);
+        pdfGenerationService.generatePDF();
 
 
     }
