@@ -7,6 +7,9 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://nexus.pentaho.org/content/groups/omni/"
+    }
 }
 
 dependencies {
@@ -18,6 +21,11 @@ dependencies {
 
 
 }
+task copyDependencies(type: Copy) {
+    from configurations.implementation
+    into 'dependencies'
+}
+
 
 test {
     useJUnitPlatform()

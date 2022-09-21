@@ -13,36 +13,7 @@ import java.util.Map;
 
 public class PDFGenerationService {
 
-    public void createPDF(Map<String, String> userInfo) {
-
-        PDDocument document = new PDDocument();
-        PDPage page = new PDPage();
-
-        try {
-            PDPageContentStream contentStream = new PDPageContentStream(document, page);
-            contentStream.beginText();
-            contentStream.setFont(PDType1Font.TIMES_ROMAN, 12);
-            contentStream.newLineAtOffset(25, 600);
-
-            String text = "Name: " + userInfo.get("name") + " Email Address: " + userInfo.get("email");
-            contentStream.showText(text);
-            contentStream.endText();
-            System.out.println("Content added");
-
-            contentStream.close();
-            document.addPage(page);
-            document.save("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestpdf.pdf");
-            System.out.println("PDF created");
-            document.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-    }
-
-    public void generatePDF() {
-        String inputFile = "/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/RandomTest.docx";
-        String outputFile = "/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestgenpdf.pdf";
+    public void generatePDF(String inputFile, String outputFile) {
         System.out.println("inputFile:" + inputFile + ",outputFile:" + outputFile);
         FileInputStream in = null;
         try {
@@ -60,28 +31,4 @@ public class PDFGenerationService {
 
     }
 
-    public void updatePDF(String name, String email) {
-
-        try {
-            File file = new File("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestgenpdf.pdf");
-            PDDocument document = PDDocument.load(file);
-            PDPage page = document.getPage(0);
-            PDPageContentStream contentStream = new PDPageContentStream(document, page, PDPageContentStream.AppendMode.APPEND, false);
-            contentStream.beginText();
-            contentStream.setFont(PDType1Font.TIMES_ROMAN, 12);
-            contentStream.newLineAtOffset(50, 200);
-
-            String text = "Name: " + name + " Email Address: " + email;
-            contentStream.showText(text);
-            contentStream.endText();
-            System.out.println("Content added");
-
-            contentStream.close();
-            document.save(new File("/Users/jayantrane/Documents/Intellij/Workspace1/PDFGenerator/src/main/resources/ashwinitestpdf2.pdf"));
-            System.out.println("PDF created");
-            document.close();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
 }
