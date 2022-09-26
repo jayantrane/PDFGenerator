@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Code appends to PDF">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleUpdateDocsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basic5pagedoc-converted.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basic5pagedoc-convertedname.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basic5pagedoc.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basic5pagedoc2.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="8e9601c0-23f5-46b2-9d12-9fbfb2309774" name="Changes" comment="Updating doc first and then generating PDF">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFParserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample-converted.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PDFGenerationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="PDFGenerator" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PDFGenerator" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -133,6 +134,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PDFGenerator [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="PDFGenerator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,11 +200,13 @@
     <list>
       <item itemvalue="Application.PDF" />
       <item itemvalue="Application.SimpleUpdateDocsService" />
+      <item itemvalue="Gradle.PDFGenerator [buildDependents]" />
       <item itemvalue="Gradle.PDFGenerator [clean]" />
       <item itemvalue="Gradle.PDFGenerator [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PDFGenerator [buildDependents]" />
         <item itemvalue="Application.SimpleUpdateDocsService" />
         <item itemvalue="Gradle.PDFGenerator [clean]" />
         <item itemvalue="Gradle.PDFGenerator [build]" />
@@ -226,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662653756890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating doc first and then generating PDF">
+      <created>1663761592148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663761592149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +277,7 @@
     <MESSAGE value="Added to convert docs to pdf directly" />
     <MESSAGE value="Updated some code to append the name and email" />
     <MESSAGE value="Code appends to PDF" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code appends to PDF" />
+    <MESSAGE value="Updating doc first and then generating PDF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating doc first and then generating PDF" />
   </component>
 </project>

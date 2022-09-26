@@ -16,14 +16,21 @@ public class Main {
 //        pdfGenerationService.createPDF(userInfo);
 //        pdfGenerationService.updatePDF("Ashwini", "test@gmail.com");
 
-        String inputFileName = "src/main/resources/basic5pagedoc.docx";
-        String outputFileName = "src/main/resources/basic5pagedoc.pdf";
+//        String inputFileName = "src/main/resources/basic5pagedoc.docx";
+//        String outputFileName = "src/main/resources/basic5pagedoc.pdf";
+//        String nameToBeUpdated = "Name Replaced";
+//        String emailToBeUpdated = "Email got Updated";
+//        simpleUpdateDocsService = new SimpleUpdateDocsService();
+//        String generatedDocFile = simpleUpdateDocsService.findAndReplaceAllText(inputFileName, nameToBeUpdated, emailToBeUpdated);
+//        pdfGenerationService = new PDFGenerationService();
+//        pdfGenerationService.generatePDF(generatedDocFile, outputFileName);
+
+        String inputFileName = "src/main/resources/sample.pdf";
+        String outputFileName = "src/main/resources/sample-converted.pdf";
         String nameToBeUpdated = "Name Replaced";
         String emailToBeUpdated = "Email got Updated";
-        simpleUpdateDocsService = new SimpleUpdateDocsService();
-        String generatedDocFile = simpleUpdateDocsService.findAndReplaceAllText(inputFileName, nameToBeUpdated, emailToBeUpdated);
-        pdfGenerationService = new PDFGenerationService();
-        pdfGenerationService.generatePDF(generatedDocFile, outputFileName);
+        PDFParserService pdfParserService = new PDFParserService();
+        pdfParserService.findAndReplaceAllText(inputFileName, nameToBeUpdated, emailToBeUpdated);
 
     }
 }
